@@ -1,4 +1,4 @@
-# AI 观察微信公众号文章 Skill
+# AI 热点公众号创作
 
 一个用于生成中文微信公众号 AI 短观点文章与配套封面图的 Codex Skill。
 
@@ -33,7 +33,7 @@
 将仓库克隆到 Codex skills 目录：
 
 ```bash
-git clone https://github.com/linafan46/ai-observer-wechat.git ~/.codex/skills/ai-observer-wechat
+git clone https://github.com/linafan46/ai-wechat-writer.git ~/.codex/skills/ai-wechat-writer
 ```
 
 安装完成后，重启 Codex 让 Skill 生效。
@@ -43,17 +43,17 @@ git clone https://github.com/linafan46/ai-observer-wechat.git ~/.codex/skills/ai
 直接调用 Skill：
 
 ```text
-使用 $ai-observer-wechat 根据最近的 AI 热点生成一篇微信公众号短观点文章和封面图。
+使用 $ai-wechat-writer 根据最近的 AI 热点生成一篇微信公众号短观点文章和封面图。
 ```
 
 也可以指定主题：
 
 ```text
-使用 $ai-observer-wechat 写一篇关于 Agent 记忆能力的微信公众号文章，并生成配套封面。
+使用 $ai-wechat-writer 写一篇关于 Agent 记忆能力的微信公众号文章，并生成配套封面。
 ```
 
 ```text
-使用 $ai-observer-wechat 从个人成长角度写一篇关于 AI 时代判断力的短文。
+使用 $ai-wechat-writer 从个人成长角度写一篇关于 AI 时代判断力的短文。
 ```
 
 ## 输出内容
@@ -69,7 +69,7 @@ Skill 默认交付：
 ## 目录结构
 
 ```text
-ai-observer-wechat/
+ai-wechat-writer/
 ├── SKILL.md
 ├── agents/
 │   └── openai.yaml

@@ -1,9 +1,9 @@
 ---
-name: ai-observer-wechat
+name: ai-wechat-writer
 description: Use when creating Chinese WeChat public account articles about recent AI news, AI knowledge, technology trends, personal growth, or aesthetic judgment, especially when the user wants a concise shareable viewpoint article and a matching cover image.
 ---
 
-# AI 观察微信公众号文章
+# AI 热点公众号创作
 
 ## Overview
 
