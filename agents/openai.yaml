@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI观察微信公众号文章"
+  short_description: "根据近期AI热点生成短观点文章与暖白极简风格封面图"
+  default_prompt: "使用 $ai-observer-wechat 根据最近的 AI 热点生成一篇微信公众号短观点文章和封面图。"
