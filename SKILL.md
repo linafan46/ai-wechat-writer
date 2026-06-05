@@ -7,7 +7,7 @@ description: Use when creating Chinese WeChat public account articles about rece
 
 ## Overview
 
-把近期 AI 热点或个人成长话题，转化为一篇只讲一个观点的微信公众号短文，并生成统一的暖白极简 3D 封面。
+把近期 AI 热点或个人成长话题，转化为一篇只讲一个观点的微信公众号短文，并生成统一的标题摘要和暖白极简 3D 封面。
 
 ## Workflow
 
@@ -17,7 +17,7 @@ description: Use when creating Chinese WeChat public account articles about rece
 4. 选择一个最清晰的观点，并用一句话表达。无法一句话表达时，继续收窄。
 5. 按 `references/writing-style.md` 写文章。
 6. 按 `references/visual-style.md` 设计单一视觉隐喻。用户需要图片时，使用 imagegen 生成封面。
-7. 交付标题、正文、封面图、封面提示词和事实来源链接。
+7. 交付标题、25 字以内摘要、正文、封面图、封面提示词和事实来源链接。
 
 ## Topic Selection
 
@@ -34,6 +34,7 @@ description: Use when creating Chinese WeChat public account articles about rece
 ## Output Requirements
 
 - 正文只表达一个核心观点，通常控制在 150～500 字。
+- 标题下方必须生成一句摘要，尽量不超过 25 个汉字。
 - 使用短句、克制换行和重点加粗，语气直白、有判断，不写成鸡汤。
 - 热点只做入口，个人能力、工作方式或成长判断才是落点。
 - 结尾必须有一句可独立传播的总结。
@@ -49,6 +50,7 @@ description: Use when creating Chinese WeChat public account articles about rece
 - 确认文章不是换行后的新闻摘要。
 - 确认连续问句、并列清单和递进短句没有被空行拆散。
 - 确认核心判断句已用 `**加粗**` 标出，但全文不要过度加粗。
+- 确认摘要不超过 25 字左右，不是标题复读，也不是正文长句硬摘。
 - 确认封面没有科技蓝、霓虹、电路、机器人或密集文字。
 - 确认图片文字少且准确，主体一眼可懂。
 
