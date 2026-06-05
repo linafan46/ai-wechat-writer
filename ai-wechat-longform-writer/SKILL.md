@@ -7,7 +7,7 @@ description: Use when creating Chinese WeChat public account longform articles a
 
 ## Overview
 
-把近期 AI 热点、AI 观点、技术趋势或个人成长话题，转化为一篇有叙事、有类比、有观点推进的微信公众号中长文，并配套标题、摘要、封面图提示词和文中配图提示词。
+把近期 AI 热点、AI 观点、技术趋势或个人成长话题，转化为一篇有叙事、有类比、有观点推进的微信公众号中长文，并配套标题、摘要、黑底白字分割卡、封面图提示词和文中配图提示词。
 
 这个 skill 与 `ai-wechat-writer` 分工明确：
 
@@ -21,7 +21,7 @@ description: Use when creating Chinese WeChat public account longform articles a
 3. 只选择一个主观点，但允许用 1～2 个类比或案例解释它。热点不是正文主体，热点只是引出观点的证据。
 4. 按 `references/longform-writing-style.md` 写正文。
 5. 按 `references/longform-visual-style.md` 设计封面图和 2～4 张文中配图。用户需要实际图片时，优先使用 imagegen 生成；不可用时交付可直接复用的详细提示词，并说明未生成原因。
-6. 交付标题、25 字以内摘要、正文、封面图或封面提示词、文中配图提示词、事实来源链接。
+6. 交付标题、25 字以内摘要、正文、黑底白字分割卡文案、封面图或封面提示词、文中配图提示词、事实来源链接。
 
 ## Topic Selection
 
@@ -42,6 +42,7 @@ description: Use when creating Chinese WeChat public account longform articles a
 - 开头必须从具体场景或真实困惑切入，不要直接抛概念。
 - 段落要比短文更完整，不要把每句话都拆成独立段落。
 - 保留少量有力短句，但只在关键判断处使用。
+- 正文需要 2～5 个黑底白字分割卡，用作章节分割和逻辑路标。不要写“小结”。
 - 必须有一个让普通人快速理解的类比或具体案例。
 - 结尾必须回扣开头场景，并形成可独立传播的判断。
 - 图片必须服务文章逻辑，不做装饰图。每张图说明它对应正文哪一段。
@@ -55,6 +56,7 @@ description: Use when creating Chinese WeChat public account longform articles a
 - 是否用一个直观类比降低理解成本。
 - 是否删除了重复解释和啰嗦铺垫。
 - 是否避免机械短句、过度空行和教程腔。
+- 是否用黑底白字分割卡切开长文，而不是用“小结”或密集小标题。
 - 是否给出摘要、封面提示词、文中配图提示词和事实来源。
 - 涉及时效性事实时，是否已核实来源并给出链接。
 
