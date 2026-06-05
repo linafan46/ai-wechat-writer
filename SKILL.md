@@ -34,7 +34,7 @@ description: Use when creating Chinese WeChat public account articles about rece
 ## Output Requirements
 
 - 正文只表达一个核心观点，通常控制在 150～500 字。
-- 使用短句和频繁换行，语气直白、克制、有判断，不写成鸡汤。
+- 使用短句、克制换行和重点加粗，语气直白、有判断，不写成鸡汤。
 - 热点只做入口，个人能力、工作方式或成长判断才是落点。
 - 结尾必须有一句可独立传播的总结。
 - 封面必须与正文使用同一个核心隐喻，不直接复述完整标题。
@@ -47,6 +47,8 @@ description: Use when creating Chinese WeChat public account articles about rece
 - 删除与核心观点无关的第二个观点。
 - 删除空泛鼓励、夸张预测和不必要的专业术语。
 - 确认文章不是换行后的新闻摘要。
+- 确认连续问句、并列清单和递进短句没有被空行拆散。
+- 确认核心判断句已用 `**加粗**` 标出，但全文不要过度加粗。
 - 确认封面没有科技蓝、霓虹、电路、机器人或密集文字。
 - 确认图片文字少且准确，主体一眼可懂。
 
