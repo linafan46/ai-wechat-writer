@@ -1,8 +1,13 @@
 # AI 热点公众号创作
 
-一个用于生成中文微信公众号 AI 短观点文章与配套封面图的 Codex Skill。
+这个仓库包含两个 Codex Skill：
 
-它会从近期 AI 热点、AI 知识、技术趋势、审美或个人成长话题中，随机提炼一个普通读者能够理解和传播的观点，并生成统一的暖白极简 3D 风格封面。
+- `ai-wechat-writer`：短观点文章，150～500 字，只讲一个传播点。
+- `ai-wechat-longform-writer`：中长文，约 900～1800 字，有叙事、类比、摘要、封面和文中配图。
+
+根目录仍然是短文 skill。长文 skill 位于 `ai-wechat-longform-writer/` 子目录。
+
+## 短文 Skill
 
 ## 能做什么
 
@@ -40,20 +45,32 @@
 
 ## 安装
 
-将仓库克隆到 Codex skills 目录：
+安装短文 skill：
 
 ```bash
 git clone https://github.com/linafan46/ai-wechat-writer.git ~/.codex/skills/ai-wechat-writer
+```
+
+安装长文 skill：
+
+```bash
+python ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py --url https://github.com/linafan46/ai-wechat-writer/tree/main/ai-wechat-longform-writer
 ```
 
 安装完成后，重启 Codex 让 Skill 生效。
 
 ## 使用
 
-直接调用 Skill：
+调用短文 skill：
 
 ```text
 使用 $ai-wechat-writer 根据最近的 AI 热点生成一篇微信公众号短观点文章和封面图。
+```
+
+调用长文 skill：
+
+```text
+使用 $ai-wechat-longform-writer 根据最近的 AI 热点生成一篇微信公众号中长文、摘要、封面和文中配图。
 ```
 
 也可以指定主题：
@@ -105,3 +122,16 @@ ai-wechat-writer/
 - 能够形成一句清晰观点的技术趋势
 
 不适合直接用于复杂技术教程、纯参数对比、无观点的新闻汇总或需要大量论证的行业报告。
+
+## 长文 Skill 的输出
+
+长文 skill 默认交付：
+
+1. 文章标题
+2. 标题下方摘要
+3. 900～1800 字正文
+4. 封面图或封面提示词
+5. 2～4 张文中配图提示词
+6. 事实来源链接
+
+长文会从具体场景切入，再引入最新 AI 事实，用直观类比解释趋势，最后落到普通人的工作方式、知识沉淀或个人成长判断。
